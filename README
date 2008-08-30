@@ -1,0 +1,120 @@
+hello
+------------------------------------------
+The GNU `hello' program produces a familiar, friendly greeting. It 
+allows nonprogrammers to use a classic computer science tool which would 
+otherwise be unavailable to them.
+
+Yes, this really is the classic program that prints "Hello, world!" when 
+you run it. Unlike the elementary version often presented in books like 
+K&R, GNU hello processes its argument list to modify its behavior, 
+supports internationalization, and includes a mail reader. The primary 
+purpose of this program is to demonstrate how to write other programs 
+that do these things; it serves as a model for all of the GNU coding 
+standards. 
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libintl8-0.15-1
+
+Build requirements:
+  autoconf2.5-2.61-1
+  automake1.10-1.10.1-1
+  binutils-20080624-2
+  cygport-0.4.0-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  gettext-devel-0.15-1
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical homepage:
+  http://www.gnu.org/software/hello/
+
+Canonical download:
+  ftp://ftp.gnu.org/gnu/hello/
+
+------------------------------------
+
+Build instructions:
+  unpack hello-2.3-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./hello-2.3-1.cygport all
+
+This will create:
+  /usr/src/hello-2.3-1-src.tar.bz2
+  /usr/src/hello-2.3-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/hello.exe
+  /usr/share/doc/hello-2.3/ABOUT-NLS
+  /usr/share/doc/hello-2.3/AUTHORS
+  /usr/share/doc/hello-2.3/COPYING
+  /usr/share/doc/hello-2.3/ChangeLog
+  /usr/share/doc/hello-2.3/INSTALL
+  /usr/share/doc/hello-2.3/NEWS
+  /usr/share/doc/hello-2.3/README
+  /usr/share/doc/hello-2.3/THANKS
+  /usr/share/doc/hello-2.3/TODO
+  /usr/share/info/hello.info.gz
+  /usr/share/locale/bg/LC_MESSAGES/hello.mo
+  /usr/share/locale/ca/LC_MESSAGES/hello.mo
+  /usr/share/locale/da/LC_MESSAGES/hello.mo
+  /usr/share/locale/de/LC_MESSAGES/hello.mo
+  /usr/share/locale/de_DE/LC_MESSAGES/hello.mo
+  /usr/share/locale/el/LC_MESSAGES/hello.mo
+  /usr/share/locale/eo/LC_MESSAGES/hello.mo
+  /usr/share/locale/es/LC_MESSAGES/hello.mo
+  /usr/share/locale/es_AR/LC_MESSAGES/hello.mo
+  /usr/share/locale/et/LC_MESSAGES/hello.mo
+  /usr/share/locale/eu/LC_MESSAGES/hello.mo
+  /usr/share/locale/fa/LC_MESSAGES/hello.mo
+  /usr/share/locale/fi/LC_MESSAGES/hello.mo
+  /usr/share/locale/fr/LC_MESSAGES/hello.mo
+  /usr/share/locale/ga/LC_MESSAGES/hello.mo
+  /usr/share/locale/gl/LC_MESSAGES/hello.mo
+  /usr/share/locale/he/LC_MESSAGES/hello.mo
+  /usr/share/locale/hr/LC_MESSAGES/hello.mo
+  /usr/share/locale/hu/LC_MESSAGES/hello.mo
+  /usr/share/locale/id/LC_MESSAGES/hello.mo
+  /usr/share/locale/it/LC_MESSAGES/hello.mo
+  /usr/share/locale/ja/LC_MESSAGES/hello.mo
+  /usr/share/locale/ka/LC_MESSAGES/hello.mo
+  /usr/share/locale/ko/LC_MESSAGES/hello.mo
+  /usr/share/locale/lv/LC_MESSAGES/hello.mo
+  /usr/share/locale/nb/LC_MESSAGES/hello.mo
+  /usr/share/locale/nl/LC_MESSAGES/hello.mo
+  /usr/share/locale/nn/LC_MESSAGES/hello.mo
+  /usr/share/locale/pl/LC_MESSAGES/hello.mo
+  /usr/share/locale/pt/LC_MESSAGES/hello.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/hello.mo
+  /usr/share/locale/ro/LC_MESSAGES/hello.mo
+  /usr/share/locale/ru/LC_MESSAGES/hello.mo
+  /usr/share/locale/sk/LC_MESSAGES/hello.mo
+  /usr/share/locale/sl/LC_MESSAGES/hello.mo
+  /usr/share/locale/sr/LC_MESSAGES/hello.mo
+  /usr/share/locale/sv/LC_MESSAGES/hello.mo
+  /usr/share/locale/tr/LC_MESSAGES/hello.mo
+  /usr/share/locale/uk/LC_MESSAGES/hello.mo
+  /usr/share/locale/vi/LC_MESSAGES/hello.mo
+  /usr/share/locale/zh_CN/LC_MESSAGES/hello.mo
+  /usr/share/locale/zh_TW/LC_MESSAGES/hello.mo
+  /usr/share/man/man1/hello.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 2.3-1 -----
+Version bump.
+
+----- version 2.1.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

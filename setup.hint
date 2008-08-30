@@ -1,0 +1,18 @@
+category: Utils
+requires: cygwin libintl8
+sdesc: "GNU Hello World demo program"
+ldesc: "The GNU `hello' program produces a familiar, friendly greeting. 
+It allows nonprogrammers to use a classic computer science tool which 
+would otherwise be unavailable to them.
+
+Yes, this really is the classic program that prints `Hello, world!' 
+when you run it. Unlike the elementary version often presented in books 
+like K&R, GNU hello processes its argument list to modify its behavior, 
+supports internationalization, and includes a mail reader. The primary 
+purpose of this program is to demonstrate how to write other programs 
+that do these things; it serves as a model for all of the GNU coding 
+standards."
+
+
+
+

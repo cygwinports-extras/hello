@@ -1,0 +1,7 @@
+DESCRIPTION="GNU Hello World demo program"
+HOMEPAGE="http://www.gnu.org/software/hello/"
+SRC_URI="mirror://gnu/${PN}/${P}.tar.bz2"
+
+DIFF_EXCLUDES="config.in"
+
+NO_AUTOPOINT=1
