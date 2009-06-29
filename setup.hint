@@ -1,5 +1,5 @@
 category: Utils
-requires: cygwin libintl8
+requires: libintl8
 sdesc: "GNU Hello World demo program"
 ldesc: "The GNU `hello' program produces a familiar, friendly greeting. 
 It allows nonprogrammers to use a classic computer science tool which 
